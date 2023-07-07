@@ -107,6 +107,9 @@ body{
   text-transform: uppercase;
 }
 
+.l-links__wrapper{
+  display: none;
+}
 .l-links__list{
   background-color: grey;
   display: flex;
@@ -125,7 +128,7 @@ body{
   width:25px;
   height: 25px;
   cursor: pointer;
-  background-color: var(--Light-Grayish-Blue);
+  background-color: var(--white);
   padding: 10px;
   border-radius: 50%;
 }

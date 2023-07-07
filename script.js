@@ -1,5 +1,5 @@
 const open = document.getElementById('button')
-const closed = document.getElementById( 'header')
+const closed = document.getElementById('header')
 
 open.onclick = function(){
 links.style.display = 'flex'

@@ -1,11 +1,12 @@
-const button = document.getElementById('button')
-const modal = document.getElementById('links')
+const open = document.getElementById('button')
 const closed = document.getElementById( 'header')
 
-button.onclick = function(){
+open.onclick = function(){
 links.style.display = 'flex'
+button.style.backgroundColor = 'var(--Light-Grayish-Blue)'
 }
 
 closed.onclick = function(){
     links.style.display ='none'
+    button.style.backgroundColor = 'white'
 }

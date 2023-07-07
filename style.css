@@ -14,12 +14,15 @@
 body{
   background-color: var(--Light-Grayish-Blue);
 }
+
 .c-hero__image{
   width: 300px;
+  border-radius: 50%;
 }
 
 .c-h1{
   font-size: 3rem ;
+  color: var(--Desaturated-Dark-Blue);
 }
 
 .l-links__wrapper{

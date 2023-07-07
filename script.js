@@ -1,7 +1,11 @@
-document.getElementById('links').onclick = function(show){ 
-    document.getElementById("show").style.display = "flex"
+const button = document.getElementById('button')
+const modal = document.getElementById('links')
+const closed = document.getElementById( 'header')
+
+button.onclick = function(){
+links.style.display = 'flex'
 }
 
-document.getElementById('hide').onclick = function(hide){
-    document.getElementById("show").style.display = "none"
+closed.onclick = function(){
+    links.style.display ='none'
 }

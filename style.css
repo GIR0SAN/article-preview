@@ -27,37 +27,71 @@ body{
 }
 
 .l-content__wrapper{
-  width: 800px;
+  width: 900px;
   background-color: var(--white);
   display: flex;
-  height: 400px;
-
-}
-
-.c-hero__image{
   height: 300px;
+
 }
 
+.l-text__wrapper{
+  padding: 24px 40px;
+}
 .c-h1{
   font-size: 1.5rem ;
   color: var(--Desaturated-Dark-Blue);
+  margin-bottom: 1rem;
 }
 
 .c-paragraph{
   font-size: 14px;
   color: var(--Grayish-Blue);
+  margin-bottom: 1rem;
+
 }
 
-.l-links__wrapper{
-  background-color: grey;
+.l-contribuitor__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+
+}
+
+.l-rigth_-block{
+  display: flex;
+  align-items: center;
 }
 
 .c-profile__image{
   width: 50px;
   height: 50px;
   border-radius: 50%;
+  margin-right: 12px;
+}
+
+.c-h2{
+  font-size: 14px;
+  color: var(--Desaturated-Dark-Blue);
+}
+
+.c-date{
+  font-size: 14px;
+  color: var(--Grayish-Blue);
 }
 
 .l-links__wrapper{
-  display: none;
+  position: absolute;
+  top: -80%;
+  right: 5%;  
+}
+
+.l-links__list{
+  background-color: grey;
+  display: flex;
+  list-style: none;
+}
+
+.c-social__image{
+  margin: 16px 32px;
 }

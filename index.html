@@ -12,13 +12,13 @@
  
 </head>
 <body>
-    <header class="l-header">
+    <header class="l-header" >
       <div class="l-container">
         <div class="l-content__wrapper">
 
-          <img src="images/drawers.jpg" alt="Picture of a room" class="c-hero__image">
+          <img src="images/drawers.jpg" alt="Picture of a room" class="c-hero__image" id="hide" onclick="function(hide)" >
 
-          <div class="l-text__wrapper">
+          <div class="l-text__wrapper" >
 
             <h1 class="c-h1">
               Shift the overall look and feel by adding these wonderful 
@@ -27,7 +27,7 @@
 
             <p class="c-paragraph">
               Ever been in a room and felt like something was missing? Perhaps 
-              it felt slightly bare and uninviting. I’ve got some simple tips 
+              it felt slightly bare and uninviting. I've got some simple tips 
               to help you make any room feel complete.
             </p>
             
@@ -42,11 +42,11 @@
               </div>
 
              <div>
-              <a href="#"><img src="images/icon-share.svg" alt="Share icon"></a>
+              <img src="images/icon-share.svg" alt="Share icon" id="links" onclick="function(show)" class="c-share">
              </div>
               
-              <div class="l-links__wrapper">
-                <ul class="l-links__list">
+              <div class="l-links__wrapper" id="show" >
+                <ul class="l-links__list" >
                   
                   <li class="c-link"><a href="#"><img src="images/icon-facebook.svg" alt="Facebook icon" class="c-social__image"></a></li>
 

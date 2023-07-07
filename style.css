@@ -81,11 +81,16 @@ body{
 }
 
 .l-links__wrapper{
+  display: none;
   position: absolute;
-  top: -80%;
-  right: 5%;  
+  top: -60%;
+  right: -5%;  
 }
 
+.c-share{
+  margin: 16px;
+  z-index: 50;
+}
 .l-links__list{
   background-color: grey;
   display: flex;
@@ -95,3 +100,4 @@ body{
 .c-social__image{
   margin: 16px 32px;
 }
+

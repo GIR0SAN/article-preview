@@ -27,10 +27,10 @@ body{
 
 .l-container{
  width: 100%;
- height: 100vh;
  display: flex;
  justify-content: center;
  align-items: center;
+ padding: 4rem 0 ;
 }
 
 .c-hero__image{
@@ -43,6 +43,7 @@ body{
   background-color: var(--white);
   display: flex;
   height: auto;
+  box-shadow: 3px 10px 15px rgba(0, 0, 0, 0.281);
 }
 
 .l-text__wrapper{
@@ -138,7 +139,6 @@ body{
     display: flex;
     flex-direction: column-reverse;
     width: 28rem;
-    height: auto;
   }
 
   .c-hero__image{
@@ -160,6 +160,7 @@ body{
   .l-content__wrapper{
     flex-direction: column;
     width: 22rem;
+    
   }
 
   .l-links__wrapper{
